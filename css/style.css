@@ -1,0 +1,65 @@
+.sign-in{
+    margin-top: 75px;
+}
+
+.text-left{
+    float: left;
+}
+
+.btn-color{
+    background-color: gray;
+    border: none;
+}
+
+.pushdown{
+    margin-top: 100px;
+}
+
+.featback{
+    background-color: blue;
+}
+
+.pic-right{
+    float: right
+}
+
+td{
+    width: 32%;
+}
+
+table{
+    width: 100%;
+}
+
+/*@media(min-width:1200px){
+    #myCarousel img{
+        width: 61%;
+        margin: 5px 0 0 40px;
+    }
+}*/
+
+
+@media(max-width:991px){
+    #myCarousel{
+        display:none;
+    }
+    .marketing {
+        padding-top: 100px;
+    }
+
+}
+
+@media(min-width:798px) and (max-width: 990px){
+    .jumbotron img.app-btn{
+        width: 38%;
+    }
+    .jumbotron {
+        height: 400px !important;
+        background-size: 100% 100%;
+    }
+    
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
